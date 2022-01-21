@@ -1,0 +1,14 @@
+.table-container{
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-110px;
+  margin-top: 90px;
+}
+
+.table-container table,th,td{
+  border: 1px solid black;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 2px;
+}
