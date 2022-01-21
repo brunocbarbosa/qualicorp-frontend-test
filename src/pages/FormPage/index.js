@@ -51,6 +51,12 @@ function FormPage(){
         professionTable.length > 0 ?
           <ProfessionTable professions={professionTable} />
         :null
+
+      }
+      {
+         entityTable.length > 0 ?
+         <EntityTable entities={entityTable} />
+        :null
       }
     </>
   )
